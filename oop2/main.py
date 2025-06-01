@@ -30,3 +30,14 @@ class Pajaro(Animal):
 def hacer_emitir_sonido(animales: list[Animal]) -> None:
     for animal in animales:
         animal.emitir_sonido()
+
+# * Ejemplo de uso de la función:
+
+if __name__ == "__main__":
+    animals = [
+        Perro("Toto", 3),
+        Gato("Michi", 2),
+        Pajaro("Belén", 5)
+    ]
+
+    hacer_emitir_sonido(animals)
