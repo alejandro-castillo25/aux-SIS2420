@@ -3,6 +3,7 @@
 # ? Igual es buena practica hacerlas en inglés
 
 class Animal:
+    # ? No estamos haciendo uso de los attributos, pero para futuro
     def __init__(self, nombre: str, edad: int) -> None:
         self.nombre = nombre
         self.edad = edad
