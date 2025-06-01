@@ -19,3 +19,9 @@ class Perro(Animal):
 class Gato(Animal):
     def emitir_sonido(self) -> None:
         print("Miau!")
+
+
+# ? No está bien hacer variables con caracteres especiales (ñ)
+class Pajaro(Animal):
+    def emitir_sonido(self) -> None:
+        print("Pio Pio!")
