@@ -12,3 +12,6 @@ class Animal:
 
 
 
+class Perro(Animal):
+    def emitir_sonido(self) -> None:
+            print("Guau Guau!")
