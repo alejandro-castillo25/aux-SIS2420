@@ -25,3 +25,8 @@ class Gato(Animal):
 class Pajaro(Animal):
     def emitir_sonido(self) -> None:
         print("Pio Pio!")
+
+
+def hacer_emitir_sonido(animales: list[Animal]) -> None:
+    for animal in animales:
+        animal.emitir_sonido()
